@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Final Project</title>
+
+    <!-- Link to Bootstrap 4 CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+    <!-- FontAwesome for search icon -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Fjalla One' rel='stylesheet'>
+
+    <!-- Link to your custom stylesheet. Any non-Bootstrap styles you create go in this stylesheet. You can create new classes and IDs, or add new rules for classes that already exist in Bootstrap. Any rules you put in your custom stylesheet will override any styling applied to any elements of the same name in Bootstrap, as long as your custom stylesheet link comes AFTER your Bootstrap CSS link, the way it does here. -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+
+<header>
+    <div class='head'>
+        <div class="header-left">
+       <a href="index.html">
+             <img border="0" src="seal.jpg" width="45" height="45"></a></div>
+        <div class="header-right">
+            <i class="fas fa-search fa-2x"></i>
+            <i class="fas fa-shopping-cart fa-2x"></i>
+        </div>
+    </div>
+</header>
+
+<body>
+    <!-- nav bar (collapsable)-->
+    <nav class="navbar navbar-expand-lg">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="personalize.html">PERSONALIZATION</a>
+                </li>
+                <!-- 
+dropdown-toggle class adds the little icon;
+bootstrap doesn't really have hover menus for the navbar, so I used clickable menus instead
+-->
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="military.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">MILITARY
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="military.html">Air Force</a>
+                        <a class="dropdown-item" href="military.html">Army</a>
+                        <a class="dropdown-item" href="military.html">Marines</a>
+                        <a class="dropdown-item" href="military.html">Coast Guard</a>
+                        <a class="dropdown-item" href="military.html">Navy</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="lawenforcement.html" id="na vbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">LAW ENFORCEMENT
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="lawenforcement.html">Personalization</a>
+                        <a class="dropdown-item" href="lawenforcement.html">Wearables</a>
+                        <a class="dropdown-item" href="lawenforcement.html">Drinkware</a>
+                        <a class="dropdown-item" href="lawenforcement.html">Wall Decor</a>
+                        <a class="dropdown-item" href="lawenforcement.html">Home Decor</a>
+                        <a class="dropdown-item" href="lawenforcement.html">Auto Accessories</a>
+                        <a class="dropdown-item" href="lawenforcement.html">Gifts</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="firefighter.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">FIREFIGHTER
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="firefighter.html">Personalization</a>
+                        <a class="dropdown-item" href="firefighter.html">Wearables</a>
+                        <a class="dropdown-item" href="firefighter.html">Drinkware</a>
+                        <a class="dropdown-item" href="firefighter.html">Decor</a>
+                        <a class="dropdown-item" href="firefighter.html">Auto Accessories</a>
+                        <a class="dropdown-item" href="firefighter.html">Office Essentials</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="ems.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">EMS
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="ems.html">Personalization</a>
+                        <a class="dropdown-item" href="ems.html">Wearables</a>
+                        <a class="dropdown-item" href="ems.html">Drinkware</a>
+                        <a class="dropdown-item" href="ems.html">Decor</a>
+                        <a class="dropdown-item" href="ems.html">Auto Accessories</a>
+                        <a class="dropdown-item" href="ems.html">Office Essentials</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="bands.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">BROTHERHOOD BANDS
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="bands.html">EMS, Paramedic & EMT</a>
+                        <a class="dropdown-item" href="bands.html">Firefighter</a>
+                        <a class="dropdown-item" href="bands.html">Law Enforcement</a>
+                        <a class="dropdown-item" href="bands.html">Other Brotherhood</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <h2>Brotherhood Bands</h2>
+    <div class='shop-grid'>
+        <div class='grid-item'>
+            <div class='grid-inside'>
+                <img src="seal.jpg" alt="Smiley face" height="100" width="100">
+                Price: $---
+            </div>
+            <div class='grid-inside2'>
+                <div>Qty: <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select></div>
+                <div><button class='cart'>Add to cart</button></div>
+            </div>
+        </div>
+
+        <div class='grid-item'>
+            <div class='grid-inside'>
+                <img src="seal.jpg" alt="Smiley face" height="100" width="100">
+                Price: $---
+            </div>
+            <div class='grid-inside2'>
+                <div>Qty: <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select></div>
+                <div><button class='cart'>Add to cart</button></div>
+            </div>
+        </div>
+        <div class='grid-item'>
+            <div class='grid-inside'>
+                <img src="seal.jpg" alt="Smiley face" height="100" width="100">
+                Price: $---
+            </div>
+            <div class='grid-inside2'>
+                <div>Qty: <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select></div>
+                <div><button class='cart'>Add to cart</button></div>
+            </div>
+        </div>
+        <div class='grid-item'>
+            <div class='grid-inside'>
+                <img src="seal.jpg" alt="Smiley face" height="100" width="100">
+                Price: $---
+            </div>
+            <div class='grid-inside2'>
+                <div>Qty: <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select></div>
+                <div><button class='cart'>Add to cart</button></div>
+            </div>
+        </div>
+    </div>
+    <div class='shop-grid'>
+        <div class='grid-item'>
+            <div class='grid-inside'>
+                <img src="seal.jpg" alt="Smiley face" height="100" width="100">
+                Price: $---
+            </div>
+            <div class='grid-inside2'>
+                <div>Qty: <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select></div>
+                <div><button class='cart'>Add to cart</button></div>
+            </div>
+        </div>
+
+        <div class='grid-item'>
+            <div class='grid-inside'>
+                <img src="seal.jpg" alt="Smiley face" height="100" width="100">
+                Price: $---
+            </div>
+            <div class='grid-inside2'>
+                <div>Qty: <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select></div>
+                <div><button class='cart'>Add to cart</button></div>
+            </div>
+        </div>
+        <div class='grid-item'>
+            <div class='grid-inside'>
+                <img src="seal.jpg" alt="Smiley face" height="100" width="100">
+                Price: $---
+            </div>
+            <div class='grid-inside2'>
+                <div>Qty: <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select></div>
+                <div><button class='cart'>Add to cart</button></div>
+            </div>
+        </div>
+        <div class='grid-item'>
+            <div class='grid-inside'>
+                <img src="seal.jpg" alt="Smiley face" height="100" width="100">
+                Price: $---
+            </div>
+            <div class='grid-inside2'>
+                <div>Qty: <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select></div>
+                <div><button class='cart'>Add to cart</button></div>
+            </div>
+        </div>
+    </div>
+    <div class='shop-grid'>
+        <div class='grid-item'>
+            <div class='grid-inside'>
+                <img src="seal.jpg" alt="Smiley face" height="100" width="100">
+                Price: $---
+            </div>
+            <div class='grid-inside2'>
+                <div>Qty: <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select></div>
+                <div><button class='cart'>Add to cart</button></div>
+            </div>
+        </div>
+
+        <div class='grid-item'>
+            <div class='grid-inside'>
+                <img src="seal.jpg" alt="Smiley face" height="100" width="100">
+                Price: $---
+            </div>
+            <div class='grid-inside2'>
+                <div>Qty: <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select></div>
+                <div><button class='cart'>Add to cart</button></div>
+            </div>
+        </div>
+        <div class='grid-item'>
+            <div class='grid-inside'>
+                <img src="seal.jpg" alt="Smiley face" height="100" width="100">
+                Price: $---
+            </div>
+            <div class='grid-inside2'>
+                <div>Qty: <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select></div>
+                <div><button class='cart'>Add to cart</button></div>
+            </div>
+        </div>
+        <div class='grid-item'>
+            <div class='grid-inside'>
+                <img src="seal.jpg" alt="Smiley face" height="100" width="100">
+                Price: $---
+            </div>
+            <div class='grid-inside2'>
+                <div>Qty: <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select></div>
+                <div><button class='cart'>Add to cart</button></div>
+            </div>
+        </div>
+    </div>
+    <div class='shop-grid'>
+        <div class='grid-item'>
+            <div class='grid-inside'>
+                <img src="seal.jpg" alt="Smiley face" height="100" width="100">
+                Price: $---
+            </div>
+            <div class='grid-inside2'>
+                <div>Qty: <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select></div>
+                <div><button class='cart'>Add to cart</button></div>
+            </div>
+        </div>
+
+        <div class='grid-item'>
+            <div class='grid-inside'>
+                <img src="seal.jpg" alt="Smiley face" height="100" width="100">
+                Price: $---
+            </div>
+            <div class='grid-inside2'>
+                <div>Qty: <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select></div>
+                <div><button class='cart'>Add to cart</button></div>
+            </div>
+        </div>
+        <div class='grid-item'>
+            <div class='grid-inside'>
+                <img src="seal.jpg" alt="Smiley face" height="100" width="100">
+                Price: $---
+            </div>
+            <div class='grid-inside2'>
+                <div>Qty: <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select></div>
+                <div><button class='cart'>Add to cart</button></div>
+            </div>
+        </div>
+        <div class='grid-item'>
+            <div class='grid-inside'>
+                <img src="seal.jpg" alt="Smiley face" height="100" width="100">
+                Price: $---
+            </div>
+            <div class='grid-inside2'>
+                <div>Qty: <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select></div>
+                <div><button class='cart'>Add to cart</button></div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

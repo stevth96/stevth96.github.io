@@ -1,0 +1,201 @@
+.head {
+    background-color: #1E4D6F;
+    width: 100vw;
+    height: 7vh;
+    color: white;
+}
+
+nav {
+    background-color: #222222;
+    justify-content: center;
+    width: 100wv;
+}
+
+.navbar-toggler {
+    background-color: #F0F0F0;
+}
+
+h4 {
+    text-align: center;
+}
+
+a {
+    color: #F0F0F0;
+    font-family: 'Fjalla One';
+    font-size: 18px;
+}
+
+a:hover {
+    color: grey;
+}
+
+.dropdown-item:hover {
+    background-color: #1E4d6f;
+    color: #F0F0F0;
+}
+
+.bd-example,
+.bd-example div {
+    height: 60vh;
+}
+
+.flex-container {
+    background-color: white;
+    height: 30vh;
+    width: 100vw;
+    display: inline-flex;
+    justify-content: space-around;
+    align-content: stretch;
+}
+
+.content-box {
+    width: 30vw;
+    height: 20vh;
+    background-color: #F0F0F0;
+    margin-top: 4vh;
+    border-radius: 5px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.content-box img,
+.content-box p {
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.dropdown-menu {
+    background-color: #F0F0F0;
+}
+
+.head {
+    display: grid;
+    grid-template-columns: auto 15vw;
+    grid-template-rows: 100%
+}
+
+.header-right,
+.header-left {
+    display: flex;
+}
+
+.header-right i {
+    padding-top: 5px;
+}
+
+.carousel-item {
+    height:inherit;
+    max-width:100vw !important;
+}
+
+.carousel-caption {
+    
+    right: 10%;
+    text-align: center;
+    max-width: 500px
+    left:auto;
+    padding:10;
+    top: 70%;
+    bottom: auto;
+    border:solid;
+    border-color:#f0f0f0;
+    color:#F0F0F0:
+    }
+
+
+.shop-grid {
+    display: grid;
+    height: 30vh;
+    width: 96vw;
+    grid-gap: 1vw;
+    grid-template-columns: 21vw 21vw 21vw 21vw;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.grid-item {
+    background-color: #F0F0F0;
+    border-radius: 5px;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Fjalla One';
+    padding-top: 10px;
+}
+
+.grid-inside {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.grid-inside2 {
+    display: inline-flex;
+    width: 100%;
+    height: 25%;
+    margin-top: 10px;
+    margin-left: 2px;
+    justify-content: space-around;
+}
+
+.cart {
+    background-color: #1E4d6f;
+    color: #F0F0F0;
+    border-radius: 5px;
+}
+
+body {
+    font-family: 'Fjalla One';
+}
+
+
+@media only screen and (max-width: 768px) {
+    .content-box p {
+        font-size: 12px;
+    }
+    .shop-grid {
+        grid-template-columns: 30vw 30vw 30vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .content-box p {
+        font-size: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 576px) {
+    .content-box {
+        width: 100vw;
+        height: 20vh;
+        background-color: #F0F0F0;
+        margin-top: 4vh;
+        border-radius: 5px;
+        display: inline-flex;
+        justify-content: space-between;
+    }
+
+    .flex-container {
+        display: block;
+    }
+
+    .content-box p {
+        font-size: 20px;
+    }
+
+    .shop-grid {
+        display: grid;
+        height: 30vh;
+        width: 96vw;
+        grid-gap: 1vw;
+        grid-template-columns: 48vw 48vw;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+
+    .grid-item {
+        background-color: #F0F0F0;
+        border-radius: 5px;
+    }
+}
